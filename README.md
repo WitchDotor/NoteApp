@@ -18,7 +18,6 @@ This app works with Firebase Firestore and Room Database to store data locally a
 - Update item
 - *Search item
 - *Sort item
-- Switch storage
 
 ## Screens
 
