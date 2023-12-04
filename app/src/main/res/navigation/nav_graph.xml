@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/notesActivity">
+
+    <activity
+        android:id="@+id/notesActivity"
+        android:name="com.example.storageapp.presentation.notes.NotesActivity"
+        android:label="activity_notes"
+        tools:layout="@layout/activity_notes">
+
+        <action
+            android:id="@+id/action_notesActivity_to_noteActivity"
+            app:destination="@id/noteActivity"
+            />
+    </activity>
+    <activity
+        android:id="@+id/noteActivity"
+        android:name="com.example.storageapp.presentation.note.NoteActivity"
+        android:label="activity_note"
+        tools:layout="@layout/activity_note">
+        <action
+            android:id="@+id/action_noteActivity_tonotesActivity"
+            app:destination="@+id/notesActivity"
+            />
+    </activity>
+</navigation>

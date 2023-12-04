@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "459012285848",
+    "project_id": "fireroom-85396",
+    "storage_bucket": "fireroom-85396.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459012285848:android:ab706eb035f9b8456bf7ed",
+        "android_client_info": {
+          "package_name": "com.example.storageapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459012285848-efcicg1mfkfo0f36vhd0qbntopma49vn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxJzz6HxmjrlSPf8ULSeEUJAgwL5bKq8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459012285848-efcicg1mfkfo0f36vhd0qbntopma49vn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
